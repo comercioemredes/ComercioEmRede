@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:screenOrientation="portrait"
+    tools:context=".view.TelaCadastroCLI">
+
+
+    <Button
+        android:id="@+id/bttnCadastroCLI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botao_redondo_solido_azul"
+        android:text="@string/cadastrar_cli"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="461dp"
+        android:layout_height="240dp"
+        android:contentDescription="@string/bgRC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/wave_bg_2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="299sp"
+        android:layout_height="147sp"
+        android:contentDescription="@string/logoRC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/nomeCLI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints=""
+
+        android:drawableBottom="@drawable/linha_azul"
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorSafeBlue"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/emailLoginCLI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints=""
+
+        android:drawableBottom="@drawable/linha_azul"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorSafeBlue"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <EditText
+        android:id="@+id/telefoneCLI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints=""
+
+        android:drawableBottom="@drawable/linha_azul"
+        android:hint="@string/telefoneCLI"
+        android:imeOptions="actionNext"
+        android:inputType="phone"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorSafeBlue"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.290" />
+
+    <EditText
+        android:id="@+id/cpfCLI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints=""
+
+        android:drawableBottom="@drawable/linha_azul"
+        android:hint="@string/cpfCLI"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorSafeBlue"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435" />
+
+    <EditText
+        android:id="@+id/senhaLoginCLI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints=""
+
+        android:drawableBottom="@drawable/linha_azul"
+        android:hint="@string/senhaCLI"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorSafeBlue"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.580" />
+
+    <EditText
+        android:id="@+id/confirmarSenhaCLI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints=""
+
+        android:drawableBottom="@drawable/linha_azul"
+        android:hint="@string/confirmar_senhaCLI"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorSafeBlue"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="abrirLogin"
+        android:text="Fazer Login"
+        android:textColor="#0027FF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bttnCadastroCLI"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="Já possui uma conta?"
+        android:textColor="#6E6E6E"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bttnCadastroCLI"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
