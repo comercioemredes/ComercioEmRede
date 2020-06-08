@@ -29,7 +29,6 @@
     <string name="loginLOJ">LOGIN</string>
     <string name="emailLOJ">Email:</string>
     <string name="senhaLOJ">Senha:</string>
-    <string name="cadastrar_produto">Cadastrar Produto</string>
     <string name="cp">CP</string>
     <string name="cadastrar">Cadastrar</string>
     <string name="esqueceu_a_senha">Esqueceu a senha?</string>
@@ -52,11 +51,18 @@
 
     <string name="home_second">Home Second</string>
     <string name="valor_do_produto">Valor do produto:</string>
-    <string name="tipo_de_produto">tipo de produto</string>
     <string name="quantidade_do_produto">Quantidade do produto:</string>
     <string name="preco_do_produto">Preço do produto:</string>
     <string name="salvar_produto">Salvar produto</string>
     <string name="enviar_foto">Enviar foto</string>
-    <string name="nome_do_produto">Nome do produto</string>
+
     <string name="todo2">TODO</string>
+    <string name="tipo_de_produto">Tipo de produto:</string>
+    <string name="cnpj">CNPJ:</string>
+    <string name="cep">CEP:</string>
+    <string name="fazer_login">Fazer Login</string>
+    <string name="ja_possui_uma_conta">Já possui uma conta?</string>
+    <string name="nome_da_loja">Nome da loja:</string>
+    <string name="cadastrar_produto">CADASTRAR PRODUTO</string>
+    <string name="nome_do_produto">Nome do produto:</string>
 </resources>

@@ -17,10 +17,9 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.957" />
+        app:layout_constraintVertical_bias="0.848" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -49,15 +48,12 @@
 
     <EditText
         android:id="@+id/emailLoginLOJ"
-        android:layout_width="0dp"
+        android:layout_width="363dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
-        android:hint="@string/emailLOJ"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
         android:textColor="#000000"
@@ -65,22 +61,18 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.400" />
 
     <EditText
         android:id="@+id/senhaLoginLOJ"
-        android:layout_width="0dp"
+        android:layout_width="363dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
-        android:hint="@string/senhaLOJ"
+        android:hint="@string/senhaCLI"
         android:imeOptions="actionNext"
         android:inputType="textPassword"
         android:selectAllOnFocus="true"
@@ -89,9 +81,53 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.130" />
+        app:layout_constraintTop_toBottomOf="@+id/emailLoginLOJ"
+        app:layout_constraintVertical_bias="0.035" />
+    <TextView
+        android:id="@+id/txtEsqueciLOJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="@string/esqueceu_a_senha"
+        android:textColor="#0027FF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/senhaLoginLOJ"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtCadastrarLOJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar"
+        android:textColor="#0027FF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bttnLoginLOJ"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <TextView
+        android:id="@+id/txtMensagemLOJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/n_o_possui_um_conta"
+        android:textColor="#6E6E6E"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtCadastrarLOJ"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bttnLoginLOJ"
+        app:layout_constraintVertical_bias="0.0" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

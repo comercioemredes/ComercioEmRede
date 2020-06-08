@@ -121,7 +121,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
-        android:onClick="recuperarSenha"
         android:text="@string/esqueceu_a_senha"
         android:textColor="#0027FF"
         android:textSize="18sp"
