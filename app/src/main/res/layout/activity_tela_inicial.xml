@@ -42,7 +42,7 @@
         app:layout_constraintVertical_bias="0.925" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgLogoN"
         android:layout_width="373sp"
         android:layout_height="528sp"
         android:contentDescription="@string/logo"

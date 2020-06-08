@@ -49,59 +49,10 @@
         app:srcCompat="@drawable/logon" />
 
     <EditText
-        android:id="@+id/nomeCLI"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="216dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:autofillHints=""
-
-        android:drawableBottom="@drawable/linha_azul"
-        android:hint="@string/nome"
-        android:inputType="textPersonName"
-        android:selectAllOnFocus="true"
-        android:textColor="#000000"
-        android:textColorHint="@color/colorSafeBlue"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <EditText
-        android:id="@+id/emailLoginCLI"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
-        android:autofillHints=""
-
-        android:drawableBottom="@drawable/linha_azul"
-        android:hint="@string/email"
-        android:inputType="textEmailAddress"
-        android:selectAllOnFocus="true"
-        android:textColor="#000000"
-        android:textColorHint="@color/colorSafeBlue"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.120
-" />
-
-    <EditText
         android:id="@+id/telefoneCLI"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
+
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
@@ -114,44 +65,55 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.240
-" />
+        app:layout_constraintVertical_bias="0.475" />
 
     <EditText
-        android:id="@+id/cpfCLI"
-        android:layout_width="0dp"
+        android:id="@+id/nomeCLI"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
-        android:autofillHints=""
 
+        android:autofillHints=""
         android:drawableBottom="@drawable/linha_azul"
-        android:hint="@string/cpfCLI"
+        android:hint="@string/nome"
         android:imeOptions="actionNext"
-        android:inputType="number"
+        android:inputType="textPersonName"
         android:selectAllOnFocus="true"
         android:textColor="#000000"
         android:textColorHint="@color/colorSafeBlue"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.360
+        app:layout_constraintVertical_bias="0.305" />
+
+    <EditText
+        android:id="@+id/emailLoginCLI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:autofillHints=""
+        android:drawableBottom="@drawable/linha_azul"
+        android:hint="@string/email"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorSafeBlue"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.390
 " />
 
     <EditText
         android:id="@+id/senhaLoginCLI"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
@@ -164,18 +126,14 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.480" />
+        app:layout_constraintVertical_bias="0.645" />
 
     <EditText
         android:id="@+id/confirmarSenhaCLI"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
@@ -188,16 +146,36 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.600" />
+        app:layout_constraintVertical_bias="0.730" />
+
+    <EditText
+        android:id="@+id/cpfCLI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:autofillHints=""
+
+        android:drawableBottom="@drawable/linha_azul"
+        android:hint="@string/cpfCLI"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorSafeBlue"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.560" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="abrirLogin"
+        android:onClick="abrirLoginCLI"
         android:text="@string/fazer_login"
         android:textColor="#0027FF"
         android:textSize="18sp"

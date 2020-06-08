@@ -107,7 +107,7 @@ public class TelaLoginCLI extends AppCompatActivity {
         startActivity( i );
     }
 
-    public void abrirCadastro(View view){
+    public void abrirCadastroCLI(View view){
         Intent i = new Intent(TelaLoginCLI.this, TelaCadastroCLI.class);
         startActivity( i );
     }

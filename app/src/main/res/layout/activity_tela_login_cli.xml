@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.848" />
+        app:layout_constraintVertical_bias="0.900" />
 
     <TextView
         android:id="@+id/txtCadastrarCLI"
@@ -28,26 +28,27 @@
         android:text="@string/cadastrar"
         android:textColor="#0027FF"
         android:textSize="18sp"
+        android:onClick="abrirCadastroCLI"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintHorizontal_bias="0.777"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.91" />
+        app:layout_constraintVertical_bias="0.954" />
 
     <TextView
         android:id="@+id/txtMensagemCLI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/n_o_possui_um_conta"
+        android:text="Não possui uma conta?"
         android:textColor="#6E6E6E"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.319"
+        app:layout_constraintHorizontal_bias="0.264"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.91" />
+        app:layout_constraintVertical_bias="0.954" />
 
 
     <ImageView
@@ -78,12 +79,13 @@
 
     <EditText
         android:id="@+id/emailLoginCLI"
-        android:layout_width="363dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
         android:hint="@string/email"
+        android:imeOptions="actionNext"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
         android:textColor="#000000"
@@ -97,7 +99,7 @@
 
     <EditText
         android:id="@+id/senhaLoginCLI"
-        android:layout_width="363dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints=""
 
@@ -121,6 +123,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
         android:text="@string/esqueceu_a_senha"
+        android:onClick="recuperarSenha"
         android:textColor="#0027FF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

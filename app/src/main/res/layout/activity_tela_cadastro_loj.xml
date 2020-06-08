@@ -50,15 +50,13 @@
 
     <EditText
         android:id="@+id/nomeLOJ"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
         android:hint="@string/nome_da_loja"
+        android:imeOptions="actionNext"
         android:inputType="textPersonName"
         android:selectAllOnFocus="true"
         android:textColor="#000000"
@@ -66,22 +64,19 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.305" />
 
     <EditText
         android:id="@+id/emailLoginLOJ"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
         android:hint="@string/email"
+        android:imeOptions="actionNext"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
         android:textColor="#000000"
@@ -89,19 +84,14 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.120
-" />
+        app:layout_constraintVertical_bias="0.390" />
 
     <EditText
         android:id="@+id/telefoneLOJ"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
@@ -114,18 +104,14 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.240" />
+        app:layout_constraintVertical_bias="0.475" />
 
     <EditText
         android:id="@+id/cnpjLOJ"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
@@ -138,18 +124,14 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.360" />
+        app:layout_constraintVertical_bias="0.560" />
 
     <EditText
         android:id="@+id/enderecoLOJ"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
@@ -162,18 +144,14 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.480" />
+        app:layout_constraintVertical_bias="0.645" />
 
     <EditText
         android:id="@+id/senhaLoginLOJ"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
@@ -186,18 +164,14 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.600" />
+        app:layout_constraintVertical_bias="0.730" />
 
     <EditText
         android:id="@+id/confirmarSenhaLOJ"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="24dp"
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
@@ -210,16 +184,15 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.720" />
+        app:layout_constraintVertical_bias="0.815" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="abrirLogin"
+        android:onClick="abrirLoginLOJ"
         android:text="@string/fazer_login"
         android:textColor="#0027FF"
         android:textSize="18sp"

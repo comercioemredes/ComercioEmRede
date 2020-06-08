@@ -183,7 +183,7 @@ public class TelaCadastroLOJ extends AppCompatActivity {
 
         }
 
-    public void abrirLogin(View view) {
+    public void abrirLoginLOJ(View view) {
         Intent i = new Intent(TelaCadastroLOJ.this, TelaLoginLOJ.class);
         startActivity(i);
     }
