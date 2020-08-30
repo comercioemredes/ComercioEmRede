@@ -49,16 +49,16 @@
         app:srcCompat="@drawable/logon" />
 
     <EditText
-        android:id="@+id/telefoneCLI"
+        android:id="@+id/cpfCLI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
         android:autofillHints=""
 
         android:drawableBottom="@drawable/linha_azul"
-        android:hint="@string/telefoneCLI"
+        android:hint="@string/cpfCLI"
         android:imeOptions="actionNext"
-        android:inputType="phone"
+        android:inputType="number"
         android:selectAllOnFocus="true"
         android:textColor="#000000"
         android:textColorHint="@color/colorSafeBlue"
@@ -67,7 +67,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.475" />
+        app:layout_constraintVertical_bias="0.571" />
 
     <EditText
         android:id="@+id/nomeCLI"
@@ -87,7 +87,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.305" />
+        app:layout_constraintVertical_bias="0.331" />
 
     <EditText
         android:id="@+id/emailLoginCLI"
@@ -107,8 +107,28 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.390
-" />
+        app:layout_constraintVertical_bias="0.411" />
+
+    <EditText
+        android:id="@+id/telefoneCLI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:autofillHints=""
+
+        android:drawableBottom="@drawable/linha_azul"
+        android:hint="@string/telefoneCLI"
+        android:imeOptions="actionNext"
+        android:inputType="phone"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorSafeBlue"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491" />
 
     <EditText
         android:id="@+id/senhaLoginCLI"
@@ -128,7 +148,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
+        app:layout_constraintVertical_bias="0.651" />
 
     <EditText
         android:id="@+id/confirmarSenhaCLI"
@@ -148,28 +168,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.730" />
-
-    <EditText
-        android:id="@+id/cpfCLI"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:autofillHints=""
-
-        android:drawableBottom="@drawable/linha_azul"
-        android:hint="@string/cpfCLI"
-        android:imeOptions="actionNext"
-        android:inputType="number"
-        android:selectAllOnFocus="true"
-        android:textColor="#000000"
-        android:textColorHint="@color/colorSafeBlue"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.560" />
+        app:layout_constraintVertical_bias="0.731" />
 
     <TextView
         android:id="@+id/textView3"
