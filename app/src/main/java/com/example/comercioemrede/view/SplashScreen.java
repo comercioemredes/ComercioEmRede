@@ -10,6 +10,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
+import com.example.comercioemrede.Adapter.CatalogoAdapter;
 import com.example.comercioemrede.R;
 
 public class SplashScreen extends AppCompatActivity {
@@ -37,7 +38,7 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent it = new Intent(SplashScreen.this, TelaInicial.class);
+                Intent it = new Intent(SplashScreen.this, CatalogoActivity.class);
                 startActivity(it);
                 finish();
 

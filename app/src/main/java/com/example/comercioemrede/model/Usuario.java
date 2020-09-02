@@ -1,9 +1,9 @@
 package com.example.comercioemrede.model;
 
-import android.provider.ContactsContract;
+import android.view.LayoutInflater;
+import android.view.Menu;
 
-import com.example.comercioemrede.helper.ConfiguracaoFirebase;
-import com.google.firebase.database.DatabaseReference;
+import com.example.comercioemrede.R;
 import com.google.firebase.database.Exclude;
 
 public class Usuario {
@@ -37,7 +37,11 @@ public class Usuario {
                 ", senha='" + senha + '\'' +
                 ", telefone='" + telefone + '\'' +
                 '}';
-    }
+
+        }
+
+
+
 
     public String getCod_usu() {
         return cod_usu;
@@ -79,4 +83,9 @@ public class Usuario {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
+
+
 }
+
+
+
